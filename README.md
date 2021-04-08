@@ -1,2 +1,2 @@
-# react_burger
-Código de prueba en ReactJS
+# Proyecto de React
+
