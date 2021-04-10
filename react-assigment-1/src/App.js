@@ -35,8 +35,9 @@ const App = props => {
     return (
       <div className="App">
         <h1>First Assigment</h1>
-        <UserInput />
+        
         <UserOutput />
+        <UserInput />
       </div>
     );
   }

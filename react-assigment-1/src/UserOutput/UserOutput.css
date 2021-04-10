@@ -1,0 +1,25 @@
+.UserOutput{
+    width: 30%;
+    margin: 16px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 3px #F0F4FD;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+
+.UserName{
+    font-size: 20px;
+}
+
+.Message{
+    font-size: 12px;
+} 
+
+.user{
+    font-size: 24px;
+    color: #cc0000;
+
+}

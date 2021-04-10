@@ -7,13 +7,10 @@ const userOutput = (props) => {
     return (
         <div className='UserOutput'>
 
-            <div className='p1'>
-                <p>Párrafo 1</p>
-            </div>
-            
-            <div className='p2'>
-                <p>Párrafo 2</p>
-            </div>
+
+            <p className='UserName'>You user name is: <div className='user'>pedro69</div></p>
+            <p className='Message'>If the username is incorrect, change it in the box below.</p>
+
         </div>
     );
 };
