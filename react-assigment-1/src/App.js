@@ -1,21 +1,48 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import UserInput from './UserInput/UserInput';
+import UserOutput from './UserOutput/UserOutput';
+
 import './App.css';
 
-class App extends Component {
-  render() {
+const App = props => {
+/*
+  const [paragraphsState, setParagraphState] = useState({
+    paragraphs: [
+      {content:'El contenido del párrafo 1.'},
+      {content:'El contenido del párrafo 2.'},
+      
+    ]
+
+  });
+
+  const switchContentHandler = (newContent) => {
+    //console.log('El botón funciona');
+    // WRONG this.state.persons[0].name = 'Maximilian';
+    setParagraphState({
+      paragraphs: [
+        {content:'El nuevo contenido del párrafo 1.'},
+        {content:'El nuevo contenido del párrafo 2.'},
+        
+      ]
+  
+    });
+  }
+  
+*/
+  //Render
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>First Assigment</h1>
+        <UserInput />
+        <UserOutput />
       </div>
     );
   }
-}
+
+
+
+
 
 export default App;
