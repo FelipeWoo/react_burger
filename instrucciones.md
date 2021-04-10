@@ -51,3 +51,4 @@
     Step 1: $ npm cache clean --force
     Step 2: npm install
     To start again, $ npm start 
+    más cambios
