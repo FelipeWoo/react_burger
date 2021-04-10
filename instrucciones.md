@@ -43,3 +43,11 @@
     npm start
 
 ## Cerrar con Ctrl+C
+
+
+## Después de clonar el git, ubicarse en el directorio del proyecto
+
+
+    Step 1: $ npm cache clean --force
+    Step 2: npm install
+    To start again, $ npm start 
